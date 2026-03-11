@@ -21,19 +21,6 @@ El archivo `Principal.java` ejecuta el proceso de generación del compilador y o
 * JFlex
 * Java CUP
 
-## Estructura del proyecto
-
-```id="s1n8qk"
-compilador
- ├── src
- │   └── codigo
- │       ├── Principal.java
- │       ├── Lexer.flex
- │       ├── LexerCup.flex
- │       ├── Sintax.java
- │       └── sym.java
-```
-
 ## Funcionamiento
 
 El programa toma como entrada los archivos que definen la gramática y reglas léxicas.
